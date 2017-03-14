@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: .08rem;
+    font-weight: 100;
+    font-size: 1.1em;
+    line-height: 1.42857;
+}
+
+#menu {
+    height: 100%;
+    float: left;
+    padding: 5% 1% 5% 10%;
+    width: 20%
+}
+
+#editor {
+    height: 100%;
+    padding: 5% 2%;
+    width: 60%;
+    display:none;
+}
+
+#editZone {
+    height:100%;
+    float:left
+}
+
+#colorZone {
+    display: inline-block;
+    padding: 0 50px;
+    width: 40%
+}
+
+#noteInput {
+    height: 70%;
+    width: 400px;
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+#noteInput:focus {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+ul li {
+    word-wrap: break-word;
+    border-bottom: 0.5px solid #dadada;
+    margin-bottom: 10px;
+}
+
+li div {
+    height: 120px;
+    overflow: scroll;
+}
+
+button {
+    color: #fff;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 1em;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:focus {
+    outline: none;
+}
+#addNote {
+    background-color: #337ab7;
+}
+#saveNote {
+    background-color: #5cb85c;
+    margin-top: 8px;
+}
+
+.smallBtn {
+    background-color: transparent;
+    color: #333;
+    font-weight: 100;
+    border: 0.5px hidden;
+    padding: 2px;
+    font-size: 0.6em
+}
+

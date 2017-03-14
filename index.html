@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Note</title>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="simpleNote.js"></script>
+    <link type="text/css" rel="stylesheet" href="simple-note.css">
+</head>
+<body>
+    <div id="menu">
+        <button id="addNote" onclick="newNote()"> New Note </button>
+        <div id="noteList">
+        </div>
+    </div>
+    <div id="editor">
+        <div id="editZone">
+            <div id="noteInput" name="newNote" contenteditable="true"></div>
+            <button id="saveNote" onclick="saveNote()"> Save </button>
+            <button id="cancelNote" onclick="cancelNote()"> Cancel </button>
+        </div>
+        <div id="colorZone">
+            <div>Select a color for this note!</div>
+            <button style="background: red" onclick="addColor('red')">red</button>
+            <button style="background: green" onclick="addColor('green')">green</button>
+            <button style="background: blue" onclick="addColor('blue')">blue</button>
+            <button style="background: purple" onclick="addColor('purple')">purple</button>
+            <button onclick="addColor('')">reset</button>
+        </div>
+    </div>
+
+</body>
+</html>
